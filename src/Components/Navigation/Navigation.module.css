@@ -1,0 +1,19 @@
+.navigation {
+    grid-area: n;
+    background-color: aliceblue;
+}
+
+ul {
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    /* Убираем маркеры */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

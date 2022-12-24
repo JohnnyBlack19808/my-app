@@ -1,0 +1,12 @@
+.Post img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.img_and_text {
+    display: flex;
+    background-color: aliceblue;
+}
+.text {
+    color: blue;
+}
