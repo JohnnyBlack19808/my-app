@@ -1,8 +1,13 @@
 .header {
   grid-area: h;
   background-color: aliceblue;
+  display: flex;
 }
 
 .header .logo {
-  width: 100px;
+  height: 100%;
+}
+
+.text_logo {
+  font-size: 45px;
 }

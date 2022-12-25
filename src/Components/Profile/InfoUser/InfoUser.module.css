@@ -1,0 +1,7 @@
+.Block {
+    display: flex;
+}
+
+.avatar {
+    width: 150px;
+}

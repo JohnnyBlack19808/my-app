@@ -1,13 +1,13 @@
 import React from 'react';
 import Posts from './Posts/Posts.jsx';
-import c from './Profile.module.css'
+import c from './Profile.module.css';
+import background from './background.jpg';
+import InfoUser from './InfoUser/InfoUser.jsx';
 const Profile = () => {
   return (
-    <div className={c.content}>
-      <img alt='fon' src='https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300'></img>
-      <div>
-        ava + description
-      </div>
+    <div>
+      <img className={c.background} alt='background' src={background}></img>
+      <InfoUser Name="Dashhhh" Age="18" City="Moscow" />
       <Posts />
     </div>
   );

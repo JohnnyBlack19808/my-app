@@ -5,8 +5,11 @@
 
 .img_and_text {
     display: flex;
-    background-color: aliceblue;
 }
 .text {
     color: blue;
+}
+
+.message, .likes{
+    height: 50%;
 }
