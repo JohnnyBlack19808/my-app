@@ -1,3 +1,8 @@
-.background {
-    width: 100%;
+.Profile {
+    display: grid;
+    grid-template-areas:
+    "i p"
+    "a p";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 100%;
 }

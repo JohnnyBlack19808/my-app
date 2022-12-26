@@ -1,7 +1,6 @@
 .header {
   grid-area: h;
-  background-color: aliceblue;
-  display: flex;
+  height: 100px;
 }
 
 .header .logo {
@@ -9,5 +8,17 @@
 }
 
 .text_logo {
+  padding-top: 30px;
   font-size: 45px;
+  color: rgb(0, 62, 117);
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: -10px;
+}
+
+.text_logo span {
+  position: relative;
+  bottom: -5px;
+  color:black;
 }

@@ -1,0 +1,7 @@
+.AddPost {
+    grid-area: a;
+}
+
+.AddPost textarea {
+    resize: none;
+}

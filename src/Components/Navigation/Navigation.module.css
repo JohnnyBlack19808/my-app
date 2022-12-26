@@ -1,16 +1,10 @@
 .navigation {
     grid-area: n;
-    background-color: aliceblue;
-}
-
-ul {
-    padding: 10px;
 }
 
 li {
     list-style-type: none;
-    margin-bottom: 10px;
-    /* Убираем маркеры */
+    padding-bottom: 20px;
 }
 
 a {

@@ -2,3 +2,13 @@
     width: 100%;
     height: 150px;
 } */
+
+.Item {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(0, 62, 117);
+}
+.Posts {
+    grid-area: p;
+}

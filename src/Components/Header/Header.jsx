@@ -4,8 +4,7 @@ import logo from "./logo.png"
 const Header = () => {
   return (
     <header className={c.header}>
-      <img alt='logo' className={c.logo} src={logo} />
-      <div className={c.text_logo}>MediaClub</div>
+      <div className={c.text_logo}>Media <span>Club</span></div>
     </header>
   );
 }
