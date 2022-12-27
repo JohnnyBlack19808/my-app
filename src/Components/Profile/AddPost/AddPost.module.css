@@ -1,7 +1,10 @@
 .AddPost {
     grid-area: a;
+    margin-top: 50px;
 }
 
 .AddPost textarea {
     resize: none;
+    width: 80%;
+    height: 70px;
 }

@@ -9,7 +9,7 @@ import News from './Components/News/News';
 import Profile from './Components/Profile/Profile.jsx';
 import Setting from './Components/Setting/Setting';
 
-const App = () => {
+const App = (props) => {
   return (
     
     <BrowserRouter>
@@ -18,11 +18,11 @@ const App = () => {
       <Navigation />
       <div className='content'>
         <Routes>
-          <Route path="/Profile" element={<Profile />} />
-          <Route path="/Dialogs" element={<Dialogs />} />
-          <Route path="/Music" element={<Music />} />
-          <Route path="/News" element={<News />} />
-          <Route path="/Setting" element={<Setting />} />
+          <Route path="/Profile/*" element={<Profile PostsData={props.PostsData}/>} />
+          <Route path="/Dialogs/*" element={<Dialogs DialogItemData={props.DialogItemData} MessagesData={props.MessagesData} />} />
+          <Route path="/Music/*" element={<Music />} />
+          <Route path="/News/*" element={<News />} />
+          <Route path="/Setting/*" element={<Setting />} />
         </Routes>
       </div>
     </div>

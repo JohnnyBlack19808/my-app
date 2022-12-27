@@ -9,7 +9,3 @@
 .text {
     color: blue;
 }
-
-.message, .likes{
-    height: 50%;
-}
